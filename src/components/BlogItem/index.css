@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+.blog-item-cont {
+  display: flex;
+  flex-direction: row;
+  border-radius: 7px;
+  border: 1px solid #8e8e8e;
+  background-color: transparent;
+}
+.image {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+.text-cont {
+  display: flex;
+  flex-direction: column;
+}
+.topic {
+  font-size: 10px;
+  color: #d3d3d3;
+  margin-left: 2px;
+  margin-top: 3px;
+}
+.title {
+  color: #000000;
+  font-size: 15px;
+  margin-top: 3px;
+  margin-left: 2px;
+}
+.avatar {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  margin-top: 3px;
+  margin-left: 2px;
+}
+.author {
+  font-size: 10px;
+  color: #d3d3d3;
+  margin-top: 3px;
+  margin-left: 2px;
+}
+.img-cont {
+  display: flex;
+  flex-direction: row;
+}

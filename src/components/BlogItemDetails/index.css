@@ -1,0 +1,20 @@
+/* Write your CSS code here */
+.blog-cont {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 15px;
+}
+.title {
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+}
+.avatar {
+  height: 10px;
+  width: 10px;
+}
+.image{
+  height:200px;
+  width:100%;
+}
