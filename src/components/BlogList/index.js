@@ -1,7 +1,9 @@
-import {Component} from 'react'
-import BlogItem from '../BlogItem'
+
 import Loader from 'react-loader-spinner'
 import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
+
+import {Component} from 'react'
+import BlogItem from '../BlogItem'
 import './index.css'
 
 class BlogList extends Component {
