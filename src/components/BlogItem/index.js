@@ -6,6 +6,7 @@ const BlogItem = props => {
   const {id, title, imageUrl, avatarUrl, author, topic} = details
 
   return (
+    <li>
     <Link to={`/blogs/${id}`}>
       <div className="blog-item-cont">
         <img className="image" src={imageUrl} />
@@ -19,6 +20,7 @@ const BlogItem = props => {
         </div>
       </div>
     </Link>
+  </li>
   )
 }
 export default BlogItem
